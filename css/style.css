@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDGothic:wght@400;700&family=BIZ+UDPGothic:wght@400;700&family=Cherry+Bomb+One&family=Kosugi+Maru&family=Lexend:wght@300;400;500;600;700&family=Noto+Sans+JP:wght@400;500;600;700&display=swap');
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: #F5F5F5;
+}
+header{
+    z-index: 1;
+    position: fixed;
+    top: 16px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    margin-top: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 16px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    background-color: #E7E7E7;
+    border-radius: 25px;
+    border: 1px solid #777;
+    box-shadow: 0px 0px 50px rgba(0,0,0,0.1);
+}
+h1{
+    margin: 0px;
+    margin-left: 16px;
+    font-family: 'Lexend','BIZ UDGothic','Noto Sans JP', sans-serif;
+    font-size:24px;
+    color:#252525
+}
+main{
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+main .box{
+    padding: 16px;
+}
+main h1{
+    margin: 0px;
+    font-family: 'Lexend','Noto Sans JP', sans-serif;
+    font-size: 24px;
+    color:#252525
+}
+main h2{
+    margin: 0px;
+    font-family: 'Lexend','Noto Sans JP', sans-serif;
+    font-size: 18px;
+    color:#777
+}
+main p{
+    margin: 0px;
+    font-family: 'Lexend','BIZ UDGothic', sans-serif;
+    font-size: 16px;
+    color:#252525
+}
+main .top-zone{
+    width: 90%;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+main .top-zone img{
+    width: 100%;
+    height: 50dvh;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    object-fit: cover;
+}
+main .top-zone .img-text{
+    width: 38%;
+    max-height: 70%;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+
+    font-family:'Noto Sans JP', sans-serif;
+    font-size: 32px;
+    color:#f5f5f5
+}
+hr {
+    height: 0;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    padding: 0;
+    border: 0;
+    border-top: 1px solid #777;
+}
+
+.dlw{
+    
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 422px;
+    background-color: #E7E7E7;
+    border-radius: 25px;
+    box-shadow: 0px 0px 50px rgba(0,0,0,0.1);
+    font-family: 'Lexend','BIZ UDGothic', sans-serif;
+    padding: 3%;
+    color: #252525;
+    border: 1px solid #777;
+}
+
+.dlw p{
+    margin: 10px 0;
+    font-size: 1.6em;
+    font-family: 'Lexend','BIZ UDGothic', sans-serif;
+    text-align:center;
+    font-weight:bold;
+    color: #252525;
+}
+
+.dlbutton a{
+    font-family: 'BIZ UDGothic', sans-serif;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 160px;
+    height: 26px;
+    background-color: #0071E3;
+    border-radius: 25px;
+    color:#fff;
+    box-shadow: 0px 0px 40px rgba(0,0,0,0.1);
+    text-decoration: none;
+}
+.foo {
+    margin-left: 16px;
+    padding-bottom: 32px;
+    font-family: 'Lexend','BIZ UDGothic', sans-serif;
+    font-style: italic;
+    text-align: left;
+    color: rgb(245,31,117);
+    font-size: 18px;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1080px) {
+    main{
+        width: 95%;
+    }
+    header{
+        top: 64px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 90%;
+        border-radius: 50px;
+    }
+    h1{
+        margin-left: 32px;
+        font-size:64px;
+    }
+    
+    main .top-zone{
+        width: 100%;
+        margin-top: 16px;
+        margin-bottom: 16px;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+    }
+    main .top-zone img{
+        width: 100%;
+        height: 20dvh;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 45px;
+        object-fit: cover;
+    }
+
+    
+    .dlw{
+        border-radius: 45px;
+        width: 90%;
+    }
+
+    .dlw p{
+        margin: 10px 0;
+        font-size: 48px;
+    }
+
+    .dlbutton a{
+        width: 50%;
+        height: 64px;
+        border-radius: 45px;
+        font-size: 38px;
+    }
+}
